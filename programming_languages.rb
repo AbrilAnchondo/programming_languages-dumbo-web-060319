@@ -5,7 +5,7 @@ def reformat_languages(languages)
     info.each do |lang, details|
       details.each do |key, value|
         new_hash[lang] = details
-        new_hash << 
+        new_hash[lang][]
       end
     end
   end
