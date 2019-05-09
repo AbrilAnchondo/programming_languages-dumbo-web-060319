@@ -4,7 +4,7 @@ def reformat_languages(languages)
   languages.each do |styles, info|
     info.each do |lang, details|
       details.each do |key, value|
-        puts key
+        puts lang
       end
     end
   end
