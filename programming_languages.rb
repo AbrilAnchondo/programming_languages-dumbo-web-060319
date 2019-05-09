@@ -4,8 +4,8 @@ def reformat_languages(languages)
   languages.each do |styles, info|
     info.each do |lang, details|
       details.each do |key, value|
-        if lang == :ruby
         new_hash[lang] = details
+        new_hash 
       end
     end
   end
